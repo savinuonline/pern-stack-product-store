@@ -34,7 +34,7 @@ async function initDB(){
       )
     `
     
-    console.log("DB initialized successfully!");
+    console.log("DB initialized successfully");
   } catch (error) {
     console.log("Error initDB ",error);
   }
